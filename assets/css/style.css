@@ -3,14 +3,13 @@ header {
   background-size: cover;
   height: 100vh;
   font-family: "Oswald", Norwester;
-
 }
 
 
 
 .presentationHead {
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translate(0%, -50%);
   text-align: center;
   color: white;
@@ -243,31 +242,70 @@ header {
               0 0 100px rgb(0,140,255);
 }
 
-@media screen and (min-width: 651px) and (max-width: 4000px) {
+
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
   .navbar-collapse {
     display: flex;
     justify-content: end;
   }
 .nav-link , .navbar-brand{
   color: white;
-  font-size: 1.5rem !important;
+  font-size: 0.8rem !important;
 margin: 0.3rem;}
-}
+
+
 .nameheader{
   font-size: 2rem;
   font-weight: 700;
 }
+.quiSuisJE{
+  width: 48%;
+  border-radius: 2rem;
+  }
+  .linkfooter{
+    margin: 1rem;
+  }
+}
 
-@media screen and (min-width: 0px) and (max-width: 650px) {
+
+@media screen and (min-width: 1101px) and (max-width: 4000px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+  .nameheader{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .quiSuisJE{
+    width: 48%;
+    border-radius: 2rem;
+    }
+.nav-link , .navbar-brand{
+  color: white;
+  font-size: 1.5rem !important;
+margin: 0.3rem;}
+.linkfooter{
+  margin: 1rem;
+}
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .presentationHead {
-    top: 60%;
+    top: 70%;
 
   }
-
+.PORTEFOLIO1{
+  display: none;
+}
   header {
-    min-width: 100vh;
+    min-height: 100vh;
 
   }
+  .quiSuisJE{
+    width: 100%;
+    border-radius: 2rem;
+    }
 
 }
 
