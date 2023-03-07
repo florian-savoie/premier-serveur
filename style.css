@@ -1,0 +1,95 @@
+header{
+    background-image: url('https://img-0.journaldunet.com/LdKTfkFeppYSmL24oUA1qcUhrbY=/1500x/smart/8690a467acaf4cd4b74fcbc6d27dfdab/ccmcms-jdn/15976496.jpg');
+background-size: cover;
+height: 100vh;
+
+}
+nav{
+    background-color: black;
+    opacity: 0.2;
+}
+
+.presentationHead{
+    position: absolute;
+    top:30%;
+    transform: translate(0%,-50%);
+    text-align: center;
+    color: white;
+}
+
+/* Profile Image Style */
+@-webkit-keyframes pulsate {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 0.0; }
+    50% {
+      opacity: 1.0; }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0.0; } }
+  @keyframes pulsate {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 0.0; }
+    50% {
+      opacity: 1.0; }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0.0; } }
+      
+.cc-profile-image a {
+    position: relative; }
+  
+  .cc-profile-image a:before {
+    content: "";
+    border: 15px solid #50adf0;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    left: 0;
+    -webkit-animation: pulsate 3s ease-out;
+            animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    opacity: 0.0;
+    z-index: 99; }
+  
+  .cc-profile-image img {
+    position: relative;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    border: 15px solid transparent;
+    
+    z-index: 9999;
+    transition: all .3s ease-out; }
+  
+  .cc-profile-image a:hover img {
+    transform: scale(1.06, 1.06); }
+  
+  .cc-profile-image a:hover:before {
+    -webkit-animation: none;
+            animation: none; }
+            
+            @media screen and (min-width: 571px) and (max-width: 4000px) {
+.navbar-collapse{
+      display: flex;
+      justify-content: end;
+  }
+  
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 570px) {
+            .presentationHead{
+                top:60%;
+
+            }
+            header{
+                min-width:100vh;
+                
+            }
+              
+                    }
