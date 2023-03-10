@@ -37,3 +37,10 @@ $(document).ready(function() {
     });
   });
 
+  window.onscroll = function() {
+    if (window.pageYOffset > window.innerHeight) {
+      document.getElementById('navprincipal').style.backgroundColor = "rgba(27, 27, 27, 0.605)";
+    } else {
+      document.getElementById('navprincipal').style.backgroundColor = "";
+    }
+  }
