@@ -8,12 +8,8 @@ header {
   width:75%;
   height: 33rem;
 }
-#imgsavoiretre1{
-  display: none;
-}
-#imgsavoiretre2{
-  display: block;
-}
+
+
 
 footer{
   border-top-left-radius: 1.3rem;
@@ -438,6 +434,12 @@ margin: 0.3rem;}
 .linkfooter{
   margin: 1rem;
 }
+#imgsavoiretre1 , #carrousellow{
+  display: none !important;
+}
+#imgsavoiretre2 , #carrouselhight{
+  display: block !important;
+}
 }
 
 @media screen and (min-width: 770px) and (max-width: 1100px) {
@@ -462,6 +464,12 @@ margin: 0.3rem;}
   .linkfooter{
     margin: 1rem;
   }
+  #imgsavoiretre1 , #carrousellow{
+    display: none !important;
+  }
+  #imgsavoiretre2 , #carrouselhight{
+    display: block !important;
+  }
 }
 
 
@@ -474,9 +482,7 @@ margin: 0.3rem;}
     color: white;
     font-size: 0.6rem !important;
   margin: 0.2rem;}
-.PORTEFOLIO1{
-  display: none;
-}
+
   header {
     min-height: 100vh;
 
@@ -489,6 +495,12 @@ margin: 0.3rem;}
       margin: 0.5rem;
       font-size: 0.5rem !important;
     }
+    #imgsavoiretre1 , #carrousellow{
+      display: block !important;
+    }
+    #imgsavoiretre2 , #carrouselhight{
+      display: none !important;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
@@ -496,10 +508,6 @@ margin: 0.3rem;}
   .competenceimg{
     width:75%;
     height: 20rem;
-  }
-
-  .PORTEFOLIO1{
-    display: none;
   }
 
     .linkfooter{
@@ -528,11 +536,11 @@ font-size: 0.6rem;
     .imgmecontacter a img {
       width: 25px;
 height: 25px;    }
-#imgsavoiretre1{
-  display: block;
+#imgsavoiretre1 , #carrousellow{
+  display: block !important;
 }
-#imgsavoiretre2{
-  display: none;
+#imgsavoiretre2 , #carrouselhight{
+  display: none !important;
 }
 }
 
