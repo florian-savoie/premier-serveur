@@ -4,6 +4,16 @@ header {
   height: 100vh;
   font-family: "Oswald", Norwester;
 }
+.competenceimg{
+  width:75%;
+  height: 33rem;
+}
+#imgsavoiretre1{
+  display: none;
+}
+#imgsavoiretre2{
+  display: block;
+}
 
 footer{
   border-top-left-radius: 1.3rem;
@@ -126,7 +136,6 @@ footer{
 
 }
 .quiSuisJE{
-width: 48%;
 border-radius: 2rem;
 }
 
@@ -338,6 +347,35 @@ footer .by p{
   outline-color: #000000;
 }
 
+.imgmecontacter{
+  position: relative;
+}
+.villemecontacter{
+  position: absolute;
+top:44%;
+left: 46%;
+}
+.mailcontacter{
+  position: absolute;
+top:58%;
+left: 46%;
+}
+.telcontacter{
+  position: absolute;
+top:70%;
+left: 46%;
+}
+.linkcontact{
+position: absolute;
+height: 5;
+width: 100%;
+top:85%;
+left: 10%;
+}
+ .imgmecontacter a img {
+  width: 40x;
+height: 40px;    } 
+
 @keyframes shake {
   10% {
       transform: rotate(15deg);
@@ -455,6 +493,11 @@ margin: 0.3rem;}
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
 
+  .competenceimg{
+    width:75%;
+    height: 20rem;
+  }
+
   .PORTEFOLIO1{
     display: none;
   }
@@ -462,5 +505,34 @@ margin: 0.3rem;}
     .linkfooter{
       margin: 0.1rem;
       font-size: 0.3rem !important;
+      
     }
+    .villemecontacter{
+      position: absolute;
+    top:44%;
+    left: 46%;
+font-size: 0.6rem;
+    }
+    .mailcontacter{
+      position: absolute;
+    top:58%;
+    left: 46%;
+font-size: 0.6rem;
+    }
+    .telcontacter{
+      position: absolute;
+    top:70%;
+    left: 46%;
+    font-size: 0.6rem;
+    }
+    .imgmecontacter a img {
+      width: 25px;
+height: 25px;    }
+#imgsavoiretre1{
+  display: block;
 }
+#imgsavoiretre2{
+  display: none;
+}
+}
+
