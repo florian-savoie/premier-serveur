@@ -1,3 +1,4 @@
+
 header {
   background-image: url('https://img-0.journaldunet.com/LdKTfkFeppYSmL24oUA1qcUhrbY=/1500x/smart/8690a467acaf4cd4b74fcbc6d27dfdab/ccmcms-jdn/15976496.jpg');
   background-size: cover;
@@ -9,7 +10,14 @@ header {
   height: 33rem;
 }
 
-
+.decocontact{
+  text-decoration: none;
+  color: #000000;
+}
+.decocontact:hover{
+  text-decoration: none;
+  color: #000000;
+}
 
 footer{
   border-top-left-radius: 1.3rem;
@@ -470,6 +478,24 @@ margin: 0.3rem;}
   #imgsavoiretre2 , #carrouselhight{
     display: block !important;
   }
+  .villemecontacter{
+    position: absolute;
+  top:44%;
+  left: 46%;
+font-size: 0.9rem;
+  }
+  .mailcontacter{
+    position: absolute;
+  top:58%;
+  left: 46%;
+font-size: 0.9rem;
+  }
+  .telcontacter{
+    position: absolute;
+  top:70%;
+  left: 46%;
+  font-size: 0.9rem;
+  }
 }
 
 
@@ -501,6 +527,24 @@ margin: 0.3rem;}
     #imgsavoiretre2 , #carrouselhight{
       display: none !important;
     }
+    .villemecontacter{
+      position: absolute;
+    top:44%;
+    left: 46%;
+font-size: 0.8rem;
+    }
+    .mailcontacter{
+      position: absolute;
+    top:58%;
+    left: 46%;
+font-size: 0.8rem;
+    }
+    .telcontacter{
+      position: absolute;
+    top:70%;
+    left: 46%;
+    font-size: 0.8rem;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
@@ -519,23 +563,24 @@ margin: 0.3rem;}
       position: absolute;
     top:44%;
     left: 46%;
-font-size: 0.6rem;
+font-size: 0.7rem;
     }
     .mailcontacter{
       position: absolute;
     top:58%;
     left: 46%;
-font-size: 0.6rem;
+font-size: 0.7rem;
     }
     .telcontacter{
       position: absolute;
     top:70%;
     left: 46%;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     }
     .imgmecontacter a img {
       width: 25px;
 height: 25px;    }
+
 #imgsavoiretre1 , #carrousellow{
   display: block !important;
 }
