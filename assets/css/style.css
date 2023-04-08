@@ -9,7 +9,9 @@ header {
   width:75%;
   height: 33rem;
 }
-
+.opacitycontact:hover{
+  opacity:0.7;
+}
 .decocontact{
   text-decoration: none;
   color: #000000;
@@ -160,7 +162,7 @@ border-radius: 2rem;
 
 .carousel-control-prev,
 .carousel-control-next {
-  width: 5%;
+  width: 1%;
   opacity: 1;
   z-index: 5;
   color: black;
@@ -173,7 +175,7 @@ border-radius: 2rem;
 }
 
 .carousel-control-next {
-  right: 0%;
+  right: -1%;
 }
 
 
@@ -374,7 +376,6 @@ position: absolute;
 height: 5;
 width: 100%;
 top:85%;
-left: 10%;
 }
  .imgmecontacter a img {
   width: 40x;
@@ -397,30 +398,7 @@ height: 40px;    }
       transform: rotate(-15deg);
   }
 }
-/*
-@media only screen and (max-width: 800px) {
-  .hero{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-  }
 
-  .container__about h2{
-    font-size: 20px;
-  }
-  .container__about p{
-    font-size: 12px;
-  }
-  .container__recentpages h2{
-    font-size: 20px;
-  }
-  .container-pages ul a{
-    font-size: 12px;
-  }
-  footer .by p{
-    font-size: 12px;
-  }
-} */
 
 @media screen and (min-width: 1101px) and (max-width: 4000px) {
   .navbar-collapse {
@@ -447,6 +425,8 @@ margin: 0.3rem;}
 }
 #imgsavoiretre2 , #carrouselhight{
   display: block !important;
+  display: flex !important;
+  justify-content: center !important;
 }
 }
 
@@ -470,23 +450,27 @@ margin: 0.3rem;}
   border-radius: 2rem;
   }
   .linkfooter{
-    margin: 1rem;
+font-size:1rem!important ;  
+margin-left: 0.5rem !important;
+margin-right: 0.5rem !important;
   }
   #imgsavoiretre1 , #carrousellow{
     display: none !important;
   }
   #imgsavoiretre2 , #carrouselhight{
     display: block !important;
+    display: flex !important;
+    justify-content: center !important;
   }
   .villemecontacter{
     position: absolute;
-  top:44%;
+  top:47%;
   left: 46%;
 font-size: 0.9rem;
   }
   .mailcontacter{
     position: absolute;
-  top:58%;
+  top:59%;
   left: 46%;
 font-size: 0.9rem;
   }
@@ -518,24 +502,28 @@ font-size: 0.9rem;
     border-radius: 2rem;
     }
     .linkfooter{
-      margin: 0.5rem;
-      font-size: 0.5rem !important;
+      font-size:0.72rem!important ;  
+      margin-left: 0.3rem !important;
+      margin-right: 0.3rem !important;
     }
     #imgsavoiretre1 , #carrousellow{
       display: block !important;
+      display: flex !important;
+      justify-content: center !important;
     }
     #imgsavoiretre2 , #carrouselhight{
       display: none !important;
     }
     .villemecontacter{
       position: absolute;
-    top:44%;
+    top:47%;
+
     left: 46%;
 font-size: 0.8rem;
     }
     .mailcontacter{
       position: absolute;
-    top:58%;
+    top:59%;
     left: 46%;
 font-size: 0.8rem;
     }
@@ -555,19 +543,21 @@ font-size: 0.8rem;
   }
 
     .linkfooter{
-      margin: 0.1rem;
-      font-size: 0.3rem !important;
+      font-size:0.34rem!important ;  
+      margin-left: 0.20rem !important;
+      margin-right: 0.2rem !important;
       
     }
     .villemecontacter{
       position: absolute;
-    top:44%;
+    top:47%;
+
     left: 46%;
 font-size: 0.7rem;
     }
     .mailcontacter{
       position: absolute;
-    top:58%;
+    top:59%;
     left: 46%;
 font-size: 0.7rem;
     }
@@ -583,9 +573,53 @@ height: 25px;    }
 
 #imgsavoiretre1 , #carrousellow{
   display: block !important;
+  display: flex !important;
+  justify-content: center !important;
+
 }
 #imgsavoiretre2 , #carrouselhight{
   display: none !important;
+  display: flex;
 }
 }
 
+
+
+/**/
+
+
+.wrapper.six{
+  display: flex;
+  justify-content: center;
+}
+
+.flicker {
+  font-size: 2rem;
+  font-family: 'Merienda', sans-serif;
+  margin: 1rem auto;
+  color: #4f4d4d; /* set initial color to gray */
+  background: -webkit-gradient(linear, left top, right top, from(#080808), to(#1d1c1c), color-stop(0.8, #020202)) no-repeat;
+  background: gradient(linear, left top, right top, from(#100f0f), to(#151515), color-stop(0.8, #050505)) no-repeat;
+  background-size: 110px 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: flick 4.5s infinite;
+}
+
+@keyframes flick {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+.flicker:hover {
+  color: #000; /* set hover color to black */
+}
+
+p{
+  font-family: 'Merienda', sans-serif;
+
+}
